@@ -1,0 +1,11 @@
+"use strict";
+let guestlist = ["Tom", "Professor Moody", "Zain"];
+let invitation = ", You are invited to the exclusive dinner.";
+console.log(guestlist[0] + invitation);
+console.log(guestlist[1] + invitation);
+console.log(guestlist[2] + invitation);
+console.log("Tom can't come to the dinner");
+guestlist.splice(0, 1, "Jason");
+console.log(guestlist[0] + invitation);
+console.log(guestlist[1] + invitation);
+console.log(guestlist[2] + invitation);
